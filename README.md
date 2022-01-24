@@ -7,7 +7,7 @@ Fork and clone [this repo](https://github.com/JoinCODED/REACT-SP-Pets-MobX) into
 1. Install Mobx `npm install mobx mobx-react`.
 2. Create a file called `petStore` in `src`.
 3. Define the `PetStore` class and inside create an empty array `pets= []`.
-4. Import our data file in the store and set the initial value of the pets array to out pets data.
+4. Import our data file in the store and set the initial value of the pets array to our pets data.
 5. `import { makeAutoObservable } from "mobx";`.
 6. Make a `constructor` that will make this a store.
 7. Create a store instance and export it.
