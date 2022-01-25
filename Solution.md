@@ -2,15 +2,14 @@
 
 1. `npm install mobx mobx-react`
 2. Create a file called `petStore` in `src`
-3. Define the `pets` class and inside create an empty array `pets= []`.
+3. Define the `pets` class.
 
 ```javascript
 class PetStore {
-  pets = [],
 }
 ```
 
-4. Import our data file in the store and set the inital value of the pets array to out pets data.
+4. Import our data file in the store and create a variable `pets` with the initial value of the pets array that we imported.
 
 ```javascript
 import petsData from './petsData';
