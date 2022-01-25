@@ -2,8 +2,8 @@
 
 1. `npm install mobx mobx-react`
 2. Create a file called `petStore` in `src`
-3. define the `pets` class and inside create an empty array `pets= []`.
-4. Import our data file in the store and set the inital value of the pets array to our pets data.
+3. Define the `PetStore` class.
+4. Import our data file in the store and create a variable `pets` with the initial value of the pets array that we imported.
 5. `import { makeObservable, observable, action } from "mobx";`.
 6. make a constructor that will make this a store and mark pets as an observable.
 7. create a store and export it
